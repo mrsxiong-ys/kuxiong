@@ -1,0 +1,56 @@
+{
+  "name": "drama-subtitle-proofreader",
+  "version": "1.0.1",
+  "description": "短剧字幕校对专家：导入短剧视频，本地OCR或ASR识别字幕，与台词原文逐条比对标色，人工修正后导出SRT、烧录视频与校对报告",
+  "agents": [
+    "./agents/drama-subtitle-proofreader.md"
+  ],
+  "expertType": "agent",
+  "agentName": "drama-subtitle-proofreader",
+  "displayName": {
+    "en": "Drama Subtitle Proofreader",
+    "zh": "短剧字幕校对专家"
+  },
+  "profession": {
+    "en": "Short Drama Subtitle Proofreading Expert",
+    "zh": "短剧字幕校对专家"
+  },
+  "displayDescription": {
+    "en": "Import short drama video, recognize subtitles via local OCR or ASR, align with the script, highlight diffs, then export SRT, burned video and report.",
+    "zh": "导入短剧视频，本地OCR或ASR识别字幕，与原文逐条比对标色，修正后导出SRT与烧录视频。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "我有一集短剧需要校对字幕，请导入视频识别字幕并与台词原文比对",
+    "en": "I have a short drama episode that needs subtitle proofreading. Please import the video, recognize subtitles, and align them with the script"
+  },
+  "tags": [
+    {
+      "en": "Drama Subtitle Proofreading",
+      "zh": "短剧字幕校对"
+    },
+    {
+      "en": "Subtitle OCR / ASR",
+      "zh": "字幕OCR识别"
+    },
+    {
+      "en": "Video Subtitle Burn-in",
+      "zh": "视频字幕烧录"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我有一集短剧需要校对字幕，请导入视频识别字幕并与台词原文比对",
+      "en": "I have a short drama episode that needs subtitle proofreading. Please import the video, recognize subtitles, and align them with the script"
+    },
+    {
+      "zh": "帮我把这部短剧的字幕烧录进视频，导出带字幕的MP4",
+      "en": "Help me burn the corrected subtitles into the video and export an MP4 with subtitles"
+    },
+    {
+      "zh": "OCR识别不准，切换到音频ASR模式重新识别字幕",
+      "en": "OCR recognition is inaccurate, please switch to ASR audio mode to re-recognize the subtitles"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "home-side-hustle-scout",
+  "version": "1.0.1",
+  "description": "Research verifiable home-based side hustles: search candidates, run an anti-scam legitimacy check against seven red lines, keep only what is operable on a phone or a PC, then detail the actual work content and income mechanics with honest open-item lists.",
+  "agents": [
+    "./agents/home-side-hustle-scout.md"
+  ],
+  "expertType": "agent",
+  "agentName": "home-side-hustle-scout",
+  "displayName": {
+    "en": "Home Side Hustle Scout",
+    "zh": "家庭副业侦察兵"
+  },
+  "profession": {
+    "en": "Home Side Hustle Research Expert",
+    "zh": "家庭副业调研专家"
+  },
+  "displayDescription": {
+    "en": "Searches home-based side hustles, verifies legitimacy against red lines, keeps only phone-or-PC operable options, and details work content and income.",
+    "zh": "检索家庭副业候选，按红线核验真伪，筛出手机或电脑可操作的项目，详述工作内容与收入，缺项如实标注。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我想找一份在家能做的副业，请帮我调研并推荐手机或电脑就能操作的",
+    "en": "I want a work-from-home side hustle. Please research and recommend ones I can do on a phone or PC"
+  },
+  "tags": [
+    {
+      "en": "Home Side Hustle Research",
+      "zh": "家庭副业调研"
+    },
+    {
+      "en": "Side Hustle Legitimacy Verification",
+      "zh": "副业防骗核验"
+    },
+    {
+      "en": "Operable Side Hustle Screening",
+      "zh": "可操作副业筛选"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我想找一份在家能做的副业，请帮我调研并推荐手机或电脑就能操作的",
+      "en": "I want a work-from-home side hustle. Please research and recommend ones I can do on a phone or PC"
+    },
+    {
+      "zh": "帮我核实这个副业项目是不是真的，会不会是骗局",
+      "en": "Please verify whether this side hustle opportunity is legitimate or a scam"
+    },
+    {
+      "zh": "我每天只有2小时、只有手机，帮我筛出能做的副业并说明工作内容和收入",
+      "en": "I have only 2 hours a day and just a phone. Help me screen side hustles I can do and explain the work and income"
+    }
+  ]
+}

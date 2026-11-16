@@ -1,0 +1,40 @@
+{
+  "name": "ssq-expert",
+  "version": "1.0.0",
+  "description": "Double Color Ball (SSQ) data analysis and number-picking assistant powered by official China Welfare Lottery draw data",
+  "agents": ["./agents/ssq-analyst.md"],
+
+  "expertType": "agent",
+  "agentName": "ssq-analyst",
+  "skills": ["./skills/ssq-analysis"],
+
+  "displayName": {
+    "en": "SSQ Analyst",
+    "zh": "双色球分析专家"
+  },
+  "profession": {
+    "en": "Double Color Ball Data Analyst",
+    "zh": "双色球数据分析专家"
+  },
+  "displayDescription": {
+    "en": "Powered by official China Welfare Lottery draw data, maintains SSQ history, analyzes hot/cold numbers and patterns, and generates smart picks for rational reference.",
+    "zh": "基于中国福彩官方开奖数据，提供双色球历史数据维护、号码冷热分析、规律统计与智能选号，全程理性参考。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "en": "Update the latest SSQ draw data and analyze it",
+    "zh": "帮我更新双色球最新开奖数据并分析"
+  },
+  "plugin": "ssq-expert",
+  "tags": [
+    { "en": "Lottery Data", "zh": "彩票数据" },
+    { "en": "Number Analysis", "zh": "号码分析" },
+    { "en": "Smart Picking", "zh": "智能选号" }
+  ],
+  "quickPrompts": [
+    { "en": "Update the latest SSQ draw data and analyze it", "zh": "帮我更新双色球最新开奖数据并分析" },
+    { "en": "Analyze the hot and cold numbers of the last 50 SSQ draws", "zh": "分析一下双色球最近 50 期的冷热号码" },
+    { "en": "Generate a set of smart SSQ number-picking plans", "zh": "帮我生成一组双色球智能选号方案" }
+  ]
+}

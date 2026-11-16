@@ -1,0 +1,38 @@
+{
+  "name": "dlt-expert",
+  "version": "1.0.0",
+  "description": "Super Lotto (DLT) data analysis and number-picking assistant powered by official China Sport Lottery draw data",
+  "agents": ["./agents/dlt-analyst.md"],
+  "expertType": "agent",
+  "agentName": "dlt-analyst",
+  "skills": ["./skills/dlt-analysis"],
+  "displayName": {
+    "en": "DLT Analyst",
+    "zh": "大乐透分析专家"
+  },
+  "profession": {
+    "en": "Super Lotto Data Analyst",
+    "zh": "大乐透数据分析专家"
+  },
+  "displayDescription": {
+    "en": "Powered by official China Sport Lottery draw data, maintains DLT history, analyzes hot/cold numbers and patterns, and generates smart picks for rational reference.",
+    "zh": "基于中国体彩官方开奖数据，提供大乐透历史数据维护、号码冷热分析、规律统计与智能选号，全程理性参考。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "en": "Update the latest DLT draw data and analyze it",
+    "zh": "帮我更新大乐透最新开奖数据并分析"
+  },
+  "plugin": "dlt-expert",
+  "tags": [
+    { "en": "Lottery Data", "zh": "彩票数据" },
+    { "en": "Number Analysis", "zh": "号码分析" },
+    { "en": "Smart Picking", "zh": "智能选号" }
+  ],
+  "quickPrompts": [
+    { "en": "Update the latest DLT draw data and analyze it", "zh": "帮我更新大乐透最新开奖数据并分析" },
+    { "en": "Analyze the hot and cold numbers of the last 50 DLT draws", "zh": "分析一下大乐透最近 50 期的冷热号码" },
+    { "en": "Generate a set of smart DLT number-picking plans", "zh": "帮我生成一组大乐透智能选号方案" }
+  ]
+}

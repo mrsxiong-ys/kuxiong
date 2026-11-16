@@ -1,0 +1,56 @@
+{
+  "name": "manhua-gongfang",
+  "version": "1.0.1",
+  "description": "Comic localization pipeline: batch download from MangaDex or comic web pages, multilingual OCR, AI translation with Chinese overlay, and PDF/CBZ composition.",
+  "agents": [
+    "./agents/manhua-gongfang.md"
+  ],
+  "expertType": "agent",
+  "agentName": "manhua-gongfang",
+  "displayName": {
+    "en": "Manhua Gongfang",
+    "zh": "漫画工坊"
+  },
+  "profession": {
+    "en": "Comic Localization Pipeline Expert",
+    "zh": "漫画汉化流水线专家"
+  },
+  "displayDescription": {
+    "en": "Batch download comic images from comic web pages, smart compression, multilingual OCR, AI translation with Chinese overlay, and PDF/CBZ composition. Supports manual edit and resume.",
+    "zh": "漫画网页批量下载，智能压缩，多语言 OCR 与 AI 翻译，合成 PDF/CBZ，支持编辑续传。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "我有一部漫画需要汉化，请帮我解析网址并启动流水线处理",
+    "en": "I have a comic that needs localization. Please parse the URL and start the pipeline to process it"
+  },
+  "tags": [
+    {
+      "zh": "漫画汉化",
+      "en": "Comic Localization"
+    },
+    {
+      "zh": "漫画下载",
+      "en": "Comic Download"
+    },
+    {
+      "zh": "AI 翻译",
+      "en": "AI Translation"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我有一部漫画需要汉化，请帮我解析网址并启动流水线处理",
+      "en": "I have a comic that needs localization. Please parse the URL and start the pipeline to process it"
+    },
+    {
+      "zh": "帮我把这部漫画的前 5 话下载并翻译成中文 PDF",
+      "en": "Help me download and translate the first 5 chapters of this comic into Chinese PDF"
+    },
+    {
+      "zh": "OCR 识别不准，帮我切换到图片直译模式",
+      "en": "OCR recognition is inaccurate, please switch to image direct translation mode"
+    }
+  ]
+}
