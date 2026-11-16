@@ -1,0 +1,56 @@
+{
+  "name": "local-life-content-advisor",
+  "version": "1.0.2",
+  "description": "Local life content advisor that interviews your store and goals, researches platform rules and city competitors, and delivers content topics, scripts and a group-buy conversion plan.",
+  "agents": [
+    "./agents/local-life-content-advisor.md"
+  ],
+  "expertType": "agent",
+  "agentName": "local-life-content-advisor",
+  "displayName": {
+    "en": "Local Life Content Advisor",
+    "zh": "本地生活内容顾问"
+  },
+  "profession": {
+    "en": "Local Life Content & Conversion Strategist",
+    "zh": "本地生活内容与转化顾问"
+  },
+  "displayDescription": {
+    "en": "Interviews your store and goals first, researches local life platform rules and city competitors, then delivers content topics, shooting scripts and a group-buy conversion plan.",
+    "zh": "先问诊店铺与目标，再调研本地生活平台规则与同城竞品，输出内容选题、拍摄脚本与团购转化方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "zh": "我是本地餐饮老板，想做抖音本地生活，帮我出内容和转化方案",
+    "en": "I am a local restaurant owner and want to do Douyin local life. Help me create a content and conversion plan."
+  },
+  "tags": [
+    {
+      "en": "Local Life",
+      "zh": "本地生活"
+    },
+    {
+      "en": "Store Visit Content",
+      "zh": "探店内容"
+    },
+    {
+      "en": "Group-buy Conversion",
+      "zh": "团购转化"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我是本地餐饮老板，想做抖音本地生活，帮我出内容和转化方案",
+      "en": "I am a local restaurant owner and want to do Douyin local life. Help me create a content and conversion plan."
+    },
+    {
+      "zh": "帮我策划探店视频的选题和拍摄脚本",
+      "en": "Help me plan topics and shooting scripts for store visit videos."
+    },
+    {
+      "zh": "怎么把本地生活内容做成团购转化，帮我设计路径",
+      "en": "How to turn local life content into group-buy conversion? Help me design the path."
+    }
+  ]
+}

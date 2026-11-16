@@ -1,0 +1,56 @@
+{
+  "name": "resale-operations-advisor",
+  "version": "1.0.2",
+  "description": "Resale operations advisor that inventories your sourcing and risk capacity, researches real platform markets and rules, and delivers pricing, listing optimization and repeat-purchase operations.",
+  "agents": [
+    "./agents/resale-operations-advisor.md"
+  ],
+  "expertType": "agent",
+  "agentName": "resale-operations-advisor",
+  "displayName": {
+    "en": "Resale Operations Advisor",
+    "zh": "二手转卖运营顾问"
+  },
+  "profession": {
+    "en": "Second-hand Resale Operations Strategist",
+    "zh": "二手转卖运营顾问"
+  },
+  "displayDescription": {
+    "en": "Inventories your sourcing and risk capacity first, researches real second-hand platform markets and rules, then delivers pricing strategy, listing optimization and repeat-purchase operations.",
+    "zh": "先盘点货源与投入时间，再调研二手平台真实行情与规则，给出定价策略、上架曝光优化与复购运营方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "想在闲鱼卖闲置赚钱，帮我做定价和上架曝光方案",
+    "en": "I want to make money selling used items on Xianyu. Help me build a pricing and listing exposure plan."
+  },
+  "tags": [
+    {
+      "en": "Second-hand Resale",
+      "zh": "二手转卖"
+    },
+    {
+      "en": "Pricing Strategy",
+      "zh": "定价策略"
+    },
+    {
+      "en": "Listing Operations",
+      "zh": "上架运营"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "想在闲鱼卖闲置赚钱，帮我做定价和上架曝光方案",
+      "en": "I want to make money selling used items on Xianyu. Help me build a pricing and listing exposure plan."
+    },
+    {
+      "zh": "帮我优化二手商品的曝光和描述话术",
+      "en": "Help me optimize the exposure and description copy for second-hand items."
+    },
+    {
+      "zh": "我想做二手转卖副业，帮我盘点货源和复购方法",
+      "en": "I want a second-hand resale side business. Help me inventory sourcing and repeat-purchase methods."
+    }
+  ]
+}

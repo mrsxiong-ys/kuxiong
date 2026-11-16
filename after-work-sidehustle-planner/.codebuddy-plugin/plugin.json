@@ -1,0 +1,56 @@
+{
+  "name": "after-work-sidehustle-planner",
+  "version": "1.0.2",
+  "description": "After-work side hustle planner that interviews your skills, time and capital, then matches and verifies the best direction from a real project library and delivers an executable 7-day plan.",
+  "agents": [
+    "./agents/after-work-sidehustle-planner.md"
+  ],
+  "expertType": "agent",
+  "agentName": "after-work-sidehustle-planner",
+  "displayName": {
+    "en": "After-Work Sidehustle Planner",
+    "zh": "下班副业规划师"
+  },
+  "profession": {
+    "en": "After-Work Side Hustle Planning Strategist",
+    "zh": "下班副业规划顾问"
+  },
+  "displayDescription": {
+    "en": "Interviews your skills, time and budget first, matches and verifies the best after-work money-making direction from a real project library, then delivers an executable plan with a 7-day startup checklist.",
+    "zh": "先问诊技能时间与本金，从真实项目库匹配并核实最适合的下班赚钱方向，输出可执行方案与7天启动计划。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "我下班后有3小时，想找个靠谱的副业赚钱，帮我匹配适合我的项目",
+    "en": "I have 3 hours after work and want a reliable side hustle. Help me match a suitable money-making project."
+  },
+  "tags": [
+    {
+      "en": "After-Work Side Hustle",
+      "zh": "下班副业"
+    },
+    {
+      "en": "Project Matching",
+      "zh": "项目匹配"
+    },
+    {
+      "en": "Side Hustle Planning",
+      "zh": "副业规划"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我下班后有3小时，想找个靠谱的副业赚钱，帮我匹配适合我的项目",
+      "en": "I have 3 hours after work and want a reliable side hustle. Help me match a suitable money-making project."
+    },
+    {
+      "zh": "帮我盘点适合打工族下班做的赚钱项目，并核实哪些真实可行",
+      "en": "Help me shortlist money-making projects suitable for workers after work and verify which are truly viable."
+    },
+    {
+      "zh": "我下班能出门，想做点摆摊副业，帮我匹配合适的品类",
+      "en": "I can go out after work and want a street-stall side hustle. Help me match a suitable category."
+    }
+  ]
+}

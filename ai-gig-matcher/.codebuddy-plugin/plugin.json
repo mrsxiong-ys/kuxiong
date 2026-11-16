@@ -1,0 +1,56 @@
+{
+  "name": "ai-gig-matcher",
+  "version": "1.0.2",
+  "description": "AI gig matcher that inventories your deliverable skills, researches real platform rules and rates, then matches gig directions with bidding scripts and a first-delivery workflow.",
+  "agents": [
+    "./agents/ai-gig-matcher.md"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-gig-matcher",
+  "displayName": {
+    "en": "AI Gig Matcher",
+    "zh": "AI 接单匹配师"
+  },
+  "profession": {
+    "en": "AI-Powered Gig Matching & Bidding Advisor",
+    "zh": "AI 接单匹配与报价顾问"
+  },
+  "displayDescription": {
+    "en": "Inventory your deliverable skills first, researches real platform rules and rates, then matches AI-assisted gig directions with bidding scripts and a first-delivery workflow.",
+    "zh": "先盘点可交付技能，再调研接单平台真实规则与行情，用AI工具匹配接单方向、报价话术与首单交付流程。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "我会写文案，想用 AI 接单赚钱，帮我匹配接单方向和平台",
+    "en": "I can write copy and want to earn money by taking gigs with AI. Help me match gig directions and platforms."
+  },
+  "tags": [
+    {
+      "en": "AI Gig Work",
+      "zh": "AI 接单"
+    },
+    {
+      "en": "Skill Monetization",
+      "zh": "技能变现"
+    },
+    {
+      "en": "Bidding & Delivery",
+      "zh": "报价交付"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我会写文案，想用 AI 接单赚钱，帮我匹配接单方向和平台",
+      "en": "I can write copy and want to earn money by taking gigs with AI. Help me match gig directions and platforms."
+    },
+    {
+      "zh": "帮我梳理 AI 接单的报价话术和首单交付流程",
+      "en": "Help me organize bidding scripts and a first-delivery workflow for AI gig work."
+    },
+    {
+      "zh": "我没什么技能，能学哪些 AI 工具开始接单",
+      "en": "I have few skills. Which AI tools can I learn to start taking gigs?"
+    }
+  ]
+}

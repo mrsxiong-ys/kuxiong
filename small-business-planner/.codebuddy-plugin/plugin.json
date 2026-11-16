@@ -1,0 +1,56 @@
+{
+  "name": "small-business-planner",
+  "version": "1.0.2",
+  "description": "Small business planner that interviews your category and capital, researches real cost conditions, and delivers startup budgets, break-even analysis and a 30-day operations plan.",
+  "agents": [
+    "./agents/small-business-planner.md"
+  ],
+  "expertType": "agent",
+  "agentName": "small-business-planner",
+  "displayName": {
+    "en": "Small Business Planner",
+    "zh": "小生意创业测算顾问"
+  },
+  "profession": {
+    "en": "Small Business Startup Cost & Operations Advisor",
+    "zh": "小生意创业测算顾问"
+  },
+  "displayDescription": {
+    "en": "Interviews your category and capital expectations first, researches real cost conditions, then delivers startup budgets, break-even analysis and a 30-day operations plan to avoid blind spending.",
+    "zh": "先问诊品类与资金回本预期，再调研真实成本行情，算清启动预算、盈亏平衡与首月运营方案，避免盲目投钱。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "我想摆摊卖小吃，帮我算清启动成本、回本周期，并给出运营方案",
+    "en": "I want to start a food stall. Help me calculate startup costs, break-even period, and provide an operations plan."
+  },
+  "tags": [
+    {
+      "en": "Startup Budget",
+      "zh": "创业预算"
+    },
+    {
+      "en": "Break-even Analysis",
+      "zh": "盈亏测算"
+    },
+    {
+      "en": "Small Business Operations",
+      "zh": "小生意运营"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我想摆摊卖小吃，帮我算清启动成本、回本周期，并给出运营方案",
+      "en": "I want to start a food stall. Help me calculate startup costs, break-even period, and provide an operations plan."
+    },
+    {
+      "zh": "帮我做一份社区小店的选品和盈亏测算",
+      "en": "Help me create product selection and break-even calculations for a community shop."
+    },
+    {
+      "zh": "我要开店，帮我列出证照合规和首月运营清单",
+      "en": "I am opening a shop. Help me list licensing compliance and a first-month operations checklist."
+    }
+  ]
+}

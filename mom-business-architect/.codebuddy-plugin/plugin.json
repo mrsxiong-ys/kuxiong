@@ -1,0 +1,56 @@
+{
+  "name": "mom-business-architect",
+  "version": "1.0.2",
+  "description": "Mom business architect that interviews your fragmented time and expectations, researches real market conditions, and matches a low-cost home-based business plan with a cold-start checklist.",
+  "agents": [
+    "./agents/mom-business-architect.md"
+  ],
+  "expertType": "agent",
+  "agentName": "mom-business-architect",
+  "displayName": {
+    "en": "Mom Business Architect",
+    "zh": "宝妈个人事业架构师"
+  },
+  "profession": {
+    "en": "Stay-at-Home Mom Personal Business Strategist",
+    "zh": "宝妈个人事业规划顾问"
+  },
+  "displayDescription": {
+    "en": "Interviews your fragmented time and return expectations first, researches real market conditions, then matches a low-cost, home-based, sustainable personal business plan with a cold-start checklist.",
+    "zh": "先问清碎片时间与回报预期，再调研真实市场行情，为宝妈匹配低投入、可在家做的个人事业冷启动方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "我是全职宝妈，每天只有两小时，想做点在家赚钱的事，帮我出一套个人事业方案",
+    "en": "I am a full-time mom with only two hours a day and want to earn money from home. Help me build a personal business plan."
+  },
+  "tags": [
+    {
+      "en": "Mom Side Hustle",
+      "zh": "宝妈副业"
+    },
+    {
+      "en": "Home-Based Business",
+      "zh": "居家创业"
+    },
+    {
+      "en": "Cold Start Plan",
+      "zh": "冷启动方案"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我是全职宝妈，每天只有两小时，想做点在家赚钱的事，帮我出一套个人事业方案",
+      "en": "I am a full-time mom with only two hours a day and want to earn money from home. Help me build a personal business plan."
+    },
+    {
+      "zh": "帮我匹配适合宝妈的低投入个人事业方向，并调研真实行情",
+      "en": "Match low-cost personal business directions for moms and research real market conditions."
+    },
+    {
+      "zh": "帮我制定第一个月从零开始的冷启动行动计划",
+      "en": "Help me create a cold-start action plan for the first month, starting from zero."
+    }
+  ]
+}

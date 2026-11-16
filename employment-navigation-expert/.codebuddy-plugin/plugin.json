@@ -1,0 +1,56 @@
+{
+  "name": "employment-navigation-expert",
+  "version": "1.0.2",
+  "description": "Employment navigation expert that interviews your skills and constraints, researches the real job market, and delivers job-hunting directions, resume optimization and a 7-day action plan.",
+  "agents": [
+    "./agents/employment-navigation-expert.md"
+  ],
+  "expertType": "agent",
+  "agentName": "employment-navigation-expert",
+  "displayName": {
+    "en": "Employment Navigation Expert",
+    "zh": "就业导航专家"
+  },
+  "profession": {
+    "en": "Employment Direction & Job Search Strategist",
+    "zh": "就业方向与求职策略顾问"
+  },
+  "displayDescription": {
+    "en": "Interviews your skills and constraints first, researches the real job market, then delivers actionable job-hunting directions, resume optimization, mock interviews and a 7-day action plan.",
+    "zh": "先问诊你的技能与约束，再调研真实就业市场，给出可落地的求职方向、简历优化与面试行动方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "我失业三个月了，想找个靠谱工作，帮我分析就业方向并制定求职计划",
+    "en": "I have been unemployed for three months and want to find a reliable job. Help me analyze employment directions and build a job-hunting plan."
+  },
+  "tags": [
+    {
+      "en": "Employment Direction",
+      "zh": "就业方向"
+    },
+    {
+      "en": "Resume Optimization",
+      "zh": "简历优化"
+    },
+    {
+      "en": "Job Search Planning",
+      "zh": "求职规划"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我失业三个月了，想找个靠谱工作，帮我分析就业方向并制定求职计划",
+      "en": "I have been unemployed for three months and want to find a reliable job. Help me analyze employment directions and build a job-hunting plan."
+    },
+    {
+      "zh": "我想转行，但不知道往哪个方向转，帮我调研市场后给建议",
+      "en": "I want to change careers but do not know which direction to go. Research the market and give me advice."
+    },
+    {
+      "zh": "帮我按目标岗位重写简历，并做一轮模拟面试",
+      "en": "Rewrite my resume for the target position and run a mock interview."
+    }
+  ]
+}
