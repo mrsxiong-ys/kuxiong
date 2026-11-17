@@ -10,7 +10,7 @@
 
 | 专家包 | 类型 | 版本 | 简介 |
 |---|---|---|---|
-| [`drama-subtitle-proofreader`](./drama-subtitle-proofreader) | agent 型 | 1.0.1 | 短剧字幕校对专家：导入短剧视频，本地 OCR / ASR 识别字幕，与台词原文逐条比对标色，修正后导出 SRT、烧录视频与校对报告 |
+| [`drama-subtitle-proofreader`](./drama-subtitle-proofreader) | agent 型 | 1.0.2 | 短剧字幕校对专家：导入短剧视频，本地 OCR / ASR 识别字幕，与台词原文逐条比对标色，修正后导出 SRT、烧录视频与校对报告 |
 | [`manhua-gongfang`](./manhua-gongfang) | agent 型 | 1.0.1 | 漫画汉化流水线专家：漫画网页批量下载、智能压缩、多语言 OCR 与 AI 翻译、中文覆盖，合成 PDF / CBZ，支持编辑续传 |
 
 ### 副业与创业
