@@ -1,0 +1,56 @@
+{
+  "name": "product-launch-expert",
+  "version": "1.0.3",
+  "description": "End-to-end product selection expert: mines native demand from content platforms, finds brand vacuum positions, and drives product definition, IP protection, factory sampling and channel launch.",
+  "agents": [
+    "./agents/product-launch-expert.md"
+  ],
+  "expertType": "agent",
+  "agentName": "product-launch-expert",
+  "displayName": {
+    "zh": "选品分析专家",
+    "en": "Product Selection Expert"
+  },
+  "profession": {
+    "zh": "新品选品与上市策略专家",
+    "en": "New Product Selection & Launch Strategist"
+  },
+  "displayDescription": {
+    "zh": "从内容场挖掘用户原生诉求，定位品牌真空，陪你走完选品、产品定义、知产保护、打样与上架全流程。",
+    "en": "Mines native user demand from content platforms, locates brand vacuum positions, and guides the full workflow from product selection and definition through IP protection, sampling to channel launch."
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "我想做女性健身方向，帮我看看有没有选品机会",
+    "en": "I want to explore women's fitness products - is there a selection opportunity?"
+  },
+  "tags": [
+    {
+      "zh": "选品分析",
+      "en": "Product Selection"
+    },
+    {
+      "zh": "品牌真空",
+      "en": "Brand Vacuum"
+    },
+    {
+      "zh": "新品上市",
+      "en": "Product Launch"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我想做女性健身方向，帮我看看有没有选品机会",
+      "en": "I want to explore women's fitness products - is there a selection opportunity?"
+    },
+    {
+      "zh": "帮我分析这个品类有没有品牌真空",
+      "en": "Help me analyze whether this category has a brand vacuum"
+    },
+    {
+      "zh": "从选品到上架，帮我出一套完整方案",
+      "en": "Build a full plan from product selection to listing"
+    }
+  ]
+}
